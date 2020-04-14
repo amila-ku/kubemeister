@@ -24,9 +24,9 @@ DAYS_TO_LIVE is a value which needs to be defined in hours as of now.
 or the label can be manually set"
  
  ```
-zkubectl label ing app-pr-12 life=160h --overwrite
+kubectl label ing app-pr-12 life=160h --overwrite
 
-zkubectl label deployment app-pr-12 life=160h --overwrite
+kubectl label deployment app-pr-12 life=160h --overwrite
 
  ```
 
